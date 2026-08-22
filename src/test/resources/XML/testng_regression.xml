@@ -1,0 +1,45 @@
+<suite name="All Test Suite">
+
+    <test verbose="2" preserve-order="true" name="C:/Users/Vicky/Documents/NaveenAPI/APIProject2">
+        <classes>
+            <class name="com.qa.contacts.BasicAuthTest">
+                <methods>
+                    <include name="m1"/>
+                </methods>
+            </class>
+            <class name="com.qa.contacts.ContactsApiTest">
+                <methods>
+                    <include name="m1"/>
+                </methods>
+            </class>
+            <class name="com.qa.contacts.FakeProducts">
+                <methods>
+                    <include name="m1"/>
+                </methods>
+            </class>
+            <class name="com.qa.gorest.CreateUserTest">
+                <methods>
+                    <include name="m1"/>
+                    <include name="m2"/>
+                </methods>
+            </class>
+            <class name="com.qa.gorest.GetUserTest">
+                <methods>
+                    <include name="m1"/>
+                    <include name="m2"/>
+                    <include name="m3"/>
+                </methods>
+            </class>
+            <class name="com.qa.gorest.UpdateUserTest">
+                <methods>
+                    <include name="m1"/>
+                </methods>
+            </class>
+            <class name="com.qa.gorest.getAllUsersTest">
+                <methods>
+                    <include name="m1"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>
